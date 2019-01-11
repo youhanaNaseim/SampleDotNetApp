@@ -1,4 +1,4 @@
 os: windows
 language: shell
 script:
-  - msbuild SampleDotNetApp.sln
+  - systeminfo
