@@ -1,4 +1,4 @@
 os: windows
-language: csharp
+language: shell
 script:
   - msbuild SampleDotNetApp.sln
