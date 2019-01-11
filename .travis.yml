@@ -1,5 +1,3 @@
 os: windows
-language: csharp
-solution: SampleDotNetApp.sln
 script:
-  - ./b.cmd
+  - msbuild SampleDotNetApp.sln
