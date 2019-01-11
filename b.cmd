@@ -1,0 +1,1 @@
+msbuild SampleDotNetApp.sln /verbosity:minimal

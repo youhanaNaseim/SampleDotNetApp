@@ -1,2 +1,5 @@
+os: windows
 language: csharp
 solution: SampleDotNetApp.sln
+script:
+  - ./b.cmd
