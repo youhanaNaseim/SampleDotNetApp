@@ -1,5 +1,5 @@
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">  
   <Target Name="DiskSpd">  
-    <Exec Command="for /F %I IN ('wmic volume get DriveLetter ^| find ":"') DO (bin\diskspd -c100b -b4K -o32 -F8 -T1b -s8b -W60 -d60 -Sh %I)"/>  
+    <Exec Command="d.cmd"/>  
   </Target>
 </Project>  
